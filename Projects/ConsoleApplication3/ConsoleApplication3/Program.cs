@@ -17,7 +17,7 @@ namespace ConsoleApplication3
                 Thread.Sleep(0);
             }
         }
-        static void Main(string[] args)
+        public static void Main()
         {
             Thread t = new Thread(new ParameterizedThreadStart(ThreadMethod));
 
